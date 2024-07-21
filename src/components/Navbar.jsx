@@ -9,7 +9,7 @@ import { AuthContext } from "../contexts/AuthProvider";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
-  const [linkName, setLinkName] = useState('Login/Sign-Up');
+  const [linkName, setLinkName] = useState('Login');
   // const [navItems, setNavItems] = useState([]);
 
   // useEffect(() => {
@@ -49,7 +49,7 @@ const Navbar = () => {
       console.log("user is logged in");
       setLinkName("Library")
     } else {
-      setLinkName("Login/Sign-Up")
+      setLinkName("Login")
     }
     // setNavItems(
     //   [
@@ -72,7 +72,7 @@ const Navbar = () => {
     { link: "About", path: "/about" },
     { link: "Shop", path: "/shop" },
     // { link: "Categories", path: "/categories" },
-    { link: `${localStorage.getItem("isLoggedIn") === "true" ? "Library" : "Login/Sign-Up"}`, path: `${localStorage.getItem("isLoggedIn") === "true" ? "/admin/dashboard/upload" : "login"}` },
+    { link: `${localStorage.getItem("isLoggedIn") === "true" ? "Library" : "Login"}`, path: `${localStorage.getItem("isLoggedIn") === "true" ? "/admin/dashboard/upload" : "login"}` },
     // { link: "Owned Books", path: "/ownedBooks" },
   ];
 
