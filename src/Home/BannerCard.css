@@ -15,24 +15,26 @@
   
 .banner  .swiper-slide:nth-child(1n) {
     /* background-color: rgb(206, 17, 17); */
-    background-image: url('src/assets/banner-books/book12.png');
+    /* background-image: url('src/assets/banner-books/book12.png'); */
+    background-image: url('https://imgur.com/a/avcPOOd');
+
   }
   
 .banner  .swiper-slide:nth-child(2n) {
-    background-image: url('src/assets/banner-books/book2.png');
+    background-image: url('https://imgur.com/lCZwq76');
   }
   
 .banner  .swiper-slide:nth-child(3n) {
-    background-image: url('src/assets/banner-books/book3.png');
+    background-image: url('https://imgur.com/UWNNahS');
   }
   
  .banner .swiper-slide:nth-child(4n) {
-    background-image: url('src/assets/banner-books/book4.png');
+    background-image: url('https://imgur.com/Zy0xmIo');
 
   }
   
 .banner  .swiper-slide:nth-child(5n) {
-    background-image: url('src/assets/banner-books/book5.png');
+    background-image: url('https://imgur.com/iqrPO4X');
 
   }
   
