@@ -1,0 +1,55 @@
+header, nav{
+    z-index: 100001 !important;
+}
+
+
+.search-input {
+    outline: none ; /* Remove the outline */
+    border: none;
+   
+    flex: 1;
+  }
+  
+  .search-input:focus {
+    outline: none !important; /* Ensure no outline on focus */
+    box-shadow: none !important; /* Remove any box-shadow */
+    
+   
+  }
+  
+  .search-box{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .clear-button{
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    align-items: center;
+  }
+
+  .hidden-dis{
+    visibility: hidden;
+  }
+
+  .search-stub{
+    background-color: white;
+    margin: 2px ;
+    padding: 8px;
+    border-radius: 4px;
+    padding: 100;
+    overflow: hidden;
+  }
+
+.scrollable-container{
+    overflow-y: auto;  
+}
+
