@@ -17,26 +17,26 @@
   
 .banner  .swiper-slide:nth-child(1n) {
     /* background-color: rgb(206, 17, 17); */
-    /* background-image: url('src/assets/banner-books/book12.png'); */
-    background-image: url('https://imgur.com/a/3zPc1uA');
+    background-image: url('../assets/banner-books/pic1.png');
+
 
   }
   
 .banner  .swiper-slide:nth-child(2n) {
-    background-image: url('https://imgur.com/lCZwq76');
+    background-image: url('../assets/banner-books/pic2.png');
   }
   
 .banner  .swiper-slide:nth-child(3n) {
-    background-image: url('https://imgur.com/UWNNahS');
+    background-image: url('../assets/banner-books/pic3.png');
   }
   
  .banner .swiper-slide:nth-child(4n) {
-    background-image: url('https://imgur.com/Zy0xmIo');
+    background-image: url('../assets/banner-books/pic4.jpeg');
 
   }
   
 .banner  .swiper-slide:nth-child(5n) {
-    background-image: url('https://imgur.com/iqrPO4X');
+    background-image: url('../assets/banner-books/pic5.png');
 
   }
   

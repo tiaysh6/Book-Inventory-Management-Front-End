@@ -12,12 +12,12 @@ const Navbar = () => {
   const [linkName, setLinkName] = useState('Login/Sign-Up');
   // const [navItems, setNavItems] = useState([]);
 
-  useEffect(() => {
-    console.log(linkName)
-  }, [linkName])
+  // useEffect(() => {
+  //   console.log(linkName)
+  // }, [linkName])
 
   const { user } = useContext(AuthContext);
-  console.log(user);
+  // console.log(user);
 
   //toggle menu
 
